@@ -3,7 +3,6 @@ import java.util.Scanner;
 
 public class BTTH_Ss13 {
 
-    // ================= MODEL =================
     static class Patient {
         private String id;
         private String name;
@@ -39,7 +38,6 @@ public class BTTH_Ss13 {
         }
     }
 
-    // ================= MANAGER =================
     static class PatientManager {
         private ArrayList<Patient> list = new ArrayList<>();
 
@@ -101,7 +99,6 @@ public class BTTH_Ss13 {
         }
     }
 
-    // ================= MAIN MENU =================
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         PatientManager manager = new PatientManager();
@@ -168,4 +165,5 @@ public class BTTH_Ss13 {
             }
         }
     }
+
 }
